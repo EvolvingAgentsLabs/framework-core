@@ -11,3 +11,7 @@ This repository contains the foundational markdown files for building a document
 
 ## Usage
 To use this framework, create your own `components/` and `scenarios/` directories and use the `llmunix` prompt to operate your system.
+
+## Acknowledgements
+
+*   Original Concept Contributors: [Matias Molinas](https://github.com/matiasmolinas) and [Ismael Faro](https://github.com/ismaelfaro).
