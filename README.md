@@ -1,4 +1,4 @@
-# Ecolcing Agents Labs - Framework Core
+# Evolcing Agents Labs - Framework Core
 
 This repository contains the foundational markdown files for building **document-centric agentic systems**. This is a low-level framework for developers, researchers, and creators looking to build and experiment with a new class of AI agents that operate without traditional code.
 
