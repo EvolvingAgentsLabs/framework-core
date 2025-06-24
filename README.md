@@ -1,34 +1,90 @@
 # Evolving Agents Labs - Framework Core
 
-This repository contains the foundational markdown files for building **document-centric agentic systems**. This is a low-level framework for developers, researchers, and creators looking to build and experiment with a new class of AI agents that operate without traditional code.
+Core architectural patterns and building blocks for autonomous agent systems inspired by LLMunix's adaptive behavior management and sentient state architecture.
 
 ---
 
-## The Vision: Democratizing Agent Development
+## Overview
 
-The evolution of AI agents has often been tied to complex coding libraries and infrastructure. After exploring the next steps in agentic systems, we asked a fundamental question: *What if we could lower the barrier to entry so dramatically that anyone could build, run, and evolve sophisticated AI agents?*
+Framework Core provides the foundational components and patterns discovered through LLMunix development, enabling the creation of intelligent agents that can adapt, learn, and evolve their behavior based on context and experience.
 
-The answer lies in shifting the paradigm from **code-centric** to **document-centric**.
+Building on LLMunix's breakthrough in **Adaptive Behavior Management**, this framework distills the key architectural insights into reusable patterns for creating truly intelligent autonomous agents.
 
-This framework was born from that idea. We realized that by using structured text documents (specifically markdown) as a "programming language" and a powerful Large Language Model (LLM) as the "runtime," we could create a system that is:
+## Key Innovations from LLMunix
 
--   **Accessible:** If you can write a document, you can build an agent.
--   **Transparent:** The logic of every agent and tool is described in plain English.
--   **Infinitely Extensible:** New capabilities are added by writing new documents, not by compiling code.
+### 🧠 Sentient State Architecture
+Beyond traditional state management, Framework Core implements **behavioral constraints** that actively modify agent decision-making:
+- **Dynamic Constraint Evolution**: Agent behavior adapts based on user sentiment and execution context
+- **Memory-Driven Learning**: Historical patterns guide current decisions and optimization strategies
+- **Modular State Components**: Atomic updates to specialized state files (plan.md, context.md, constraints.md)
 
-**This is how LLM-OS was born**—as a laboratory for exploring what's possible when we treat the LLM as the CPU and markdown as its assembly language. Our mission is to democratize the development of intelligent agents, making it possible for anyone to automate and orchestrate complex tasks in any domain.
+### 🎯 Adaptive Behavior Management
+System behavior dynamically evolves through real-time constraint modification:
+- **User Sentiment Tracking**: Emotional state detection with adaptive response strategies
+- **Priority Adaptation**: Execution focus shifts between speed, comprehensiveness, and cost efficiency
+- **Persona Switching**: Communication style adapts to optimize user experience
+- **Error Tolerance Management**: Risk acceptance adjusts based on task criticality
 
-**For a full-fledged example of an operating system built on this framework, see the [LLMUNIX project](https://github.com/EvolvingAgentsLabs/llmunix).**
+### 🔍 Intelligent Memory System
+Structured experience database with pattern recognition and actionable insights:
+- **YAML Frontmatter Querying**: Complex queries across historical executions
+- **Behavioral Pattern Learning**: User preference evolution and constraint effectiveness tracking
+- **Adaptive Recommendations**: Memory provides context-aware guidance for current tasks
 
-## Core Concepts: The OS Analogy
+**For the complete implementation of these concepts, see the [LLMunix project](https://github.com/EvolvingAgentsLabs/llmunix).**
 
-The framework is built around three core "system files" that function like the essential components of a traditional operating system:
+## Architecture Patterns
 
--   **`SystemAgent.md` (The Kernel):** This is the master prompt that defines the core execution loop. It instructs the LLM on how to think, plan, execute tasks, and learn—acting as the central nervous system of the OS.
+### 1. Adaptive State Management Pattern
 
--   **`SmartLibrary.md` (The Package Manager):** This file is a human-readable registry of all available "software" (the agents and tools). The SystemAgent consults this library to discover the capabilities it needs to achieve a user's goal.
+Based on LLMunix's sentient state architecture:
 
--   **`SmartMemory.md` (The System Log & Long-Term Memory):** This is an append-only log where the SystemAgent records the outcome of every task. By consulting its memory, the system learns from past successes and failures, enabling continuous improvement and more intelligent planning over time.
+```
+agent-workspace/
+├── state/
+│   ├── plan.md          # Execution roadmap and metadata
+│   ├── context.md       # Accumulated knowledge base
+│   ├── variables.json   # Structured data passing
+│   ├── history.md       # Complete execution log
+│   └── constraints.md   # Behavioral modifiers (the sentient layer)
+└── outputs/            # Task results and artifacts
+```
+
+### 2. Behavioral Constraint Pattern
+
+Dynamic behavior modification through evolving constraints:
+
+```yaml
+# constraints.md example
+user_sentiment: "frustrated"          # Detected emotional state
+priority: "speed_and_clarity"         # Execution focus
+active_persona: "concise_assistant"   # Communication style
+error_tolerance: "strict"             # Risk acceptance level
+human_review_trigger_level: "low"     # Escalation threshold
+```
+
+### 3. Memory-Driven Decision Pattern
+
+Intelligent consultation of historical experiences:
+
+```yaml
+# memory-entry.yml
+---
+timestamp: "2024-06-24T10:30:00Z"
+task_type: "research_analysis"
+user_sentiment_evolution: ["neutral", "impatient", "satisfied"]
+constraint_adaptations:
+  - trigger: "user_time_pressure"
+    adaptation: "priority: comprehensiveness → speed_and_clarity"
+success_metrics:
+  completion_rate: 0.95
+  user_satisfaction: 0.89
+  cost_efficiency: 0.76
+lessons_learned:
+  - "Concise summaries preferred under time pressure"
+  - "Web scraping requires graceful degradation strategies"
+---
+```
 
 ## How to Use This Framework
 
