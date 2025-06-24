@@ -1,35 +1,37 @@
-# Evolving Agents Labs - Framework Core
+# Framework Core 🧪 ALPHA
 
-Core architectural patterns and building blocks for autonomous agent systems inspired by LLMunix's adaptive behavior management and sentient state architecture.
+> ⚠️ **Experimental Research Project** - This is an early-stage research prototype exploring architectural patterns derived from LLMunix experiments. This project will remain permanently in alpha status.
+
+Experimental architectural patterns and building blocks derived from LLMunix's adaptive behavior management research. This is an ongoing exploration of reusable agent system components.
 
 ---
 
 ## Overview
 
-Framework Core provides the foundational components and patterns discovered through LLMunix development, enabling the creation of intelligent agents that can adapt, learn, and evolve their behavior based on context and experience.
+Framework Core is an experimental project that attempts to distill architectural insights from LLMunix research into reusable patterns. This is early-stage exploration and should be treated as research material rather than production-ready components.
 
-Building on LLMunix's breakthrough in **Adaptive Behavior Management**, this framework distills the key architectural insights into reusable patterns for creating truly intelligent autonomous agents.
+**Research Focus**: Exploring how LLMunix's **Adaptive Behavior Management** concepts might translate into generalizable architectural patterns for experimental agent systems.
 
 ## Key Innovations from LLMunix
 
-### 🧠 Sentient State Architecture
-Beyond traditional state management, Framework Core implements **behavioral constraints** that actively modify agent decision-making:
-- **Dynamic Constraint Evolution**: Agent behavior adapts based on user sentiment and execution context
-- **Memory-Driven Learning**: Historical patterns guide current decisions and optimization strategies
-- **Modular State Components**: Atomic updates to specialized state files (plan.md, context.md, constraints.md)
+### 🧠 Experimental Sentient State Patterns
+Research into how **behavioral constraints** might modify agent decision-making:
+- **Dynamic Constraint Evolution**: Experimental approaches to behavior adaptation based on context
+- **Memory-Driven Learning**: Research prototypes exploring historical pattern integration
+- **Modular State Components**: Early explorations of atomic state file architectures
 
-### 🎯 Adaptive Behavior Management
-System behavior dynamically evolves through real-time constraint modification:
-- **User Sentiment Tracking**: Emotional state detection with adaptive response strategies
-- **Priority Adaptation**: Execution focus shifts between speed, comprehensiveness, and cost efficiency
-- **Persona Switching**: Communication style adapts to optimize user experience
-- **Error Tolerance Management**: Risk acceptance adjusts based on task criticality
+### 🎯 Adaptive Behavior Research
+Experimental investigations into dynamic behavior modification:
+- **User Sentiment Research**: Prototype systems for emotional state detection
+- **Priority Adaptation Experiments**: Research into execution focus shifting mechanisms
+- **Persona Switching Prototypes**: Early-stage communication style adaptation research
+- **Error Tolerance Studies**: Experimental risk acceptance adjustment systems
 
-### 🔍 Intelligent Memory System
-Structured experience database with pattern recognition and actionable insights:
-- **YAML Frontmatter Querying**: Complex queries across historical executions
-- **Behavioral Pattern Learning**: User preference evolution and constraint effectiveness tracking
-- **Adaptive Recommendations**: Memory provides context-aware guidance for current tasks
+### 🔍 Memory System Experiments
+Research prototypes investigating structured experience databases:
+- **YAML Frontmatter Research**: Experimental querying approaches for execution history
+- **Behavioral Pattern Studies**: Research into user preference evolution tracking
+- **Adaptive Recommendation Prototypes**: Early-stage context-aware guidance systems
 
 **For the complete implementation of these concepts, see the [LLMunix project](https://github.com/EvolvingAgentsLabs/llmunix).**
 
